@@ -1,0 +1,10 @@
+# Only publish these files
+!secret.ts
+!package.json
+!README.md
+!LICENSE
+
+# Ignore everything else
+node_modules/
+*.log
+.DS_Store
