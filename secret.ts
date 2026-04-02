@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-// @oc-forge/secret - Infisical secret management CLI with local caching
+// @openclaw/secret - Infisical secret management CLI with local caching
 // Usage: secret <command> [args]
 
 // ─── Colors ────────────────────────────────────────────────────────────────────
@@ -411,7 +411,7 @@ async function cmdExec(args: string[]) {
 
 function printUsage() {
   console.log(`
-${c.bold}${c.cyan}@oc-forge/secret${c.reset} — Infisical secret manager with local caching
+${c.bold}${c.cyan}@openclaw/secret${c.reset} — Infisical secret manager with local caching
 
 ${c.bold}Usage:${c.reset}
   secret get <KEY> [--fresh]     Get a secret value (cache-first)
@@ -422,7 +422,7 @@ ${c.bold}Usage:${c.reset}
 
 ${c.bold}Config:${c.reset}
   ${c.dim}~/.config/openclaw-fleet/config.json${c.reset}
-  ${c.dim}or INFISICAL_CLIENT_ID / INFISICAL_CLIENT_SECRET / INFISICAL_PROJECT_ID env vars${c.reset}
+  ${c.dim}or INFISICAL_CLIENT_ID / INFISICAL_CLIENT_SECRET env vars${c.reset}
 `);
 }
 
