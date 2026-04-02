@@ -1,13 +1,14 @@
 {
   "name": "@oc-forge/secret",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Infisical secret management CLI with local caching — for OpenClaw teams",
   "type": "module",
   "bin": {
-    "secret": "./bin/secret"
+    "secret": "bin/secret.js"
   },
   "files": [
     "secret.ts",
+    "bin/",
     "README.md",
     "LICENSE"
   ],
